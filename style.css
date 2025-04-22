@@ -1,0 +1,111 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+.container {
+    /* border: 2px solid white; */
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+
+#newtask {
+    position: relative;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+#newtask input {
+    width: 70%;
+    height: 70%;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    padding: 12px;
+    color: #000;
+    font-weight: 500;
+    position: relative;
+
+}
+
+#newtask button {
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'poppins', sans-serif;
+    foontweight: 500;
+    font-size: 15px;
+    background-color: #141e30;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#tasks {
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    position: relative;
+}
+
+.task {
+    background-color: #ffffff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+
+.task span {
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button {
+    background-color: #141e30;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
